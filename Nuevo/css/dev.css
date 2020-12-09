@@ -1,0 +1,95 @@
+body
+{
+    margin:0 auto;
+    padding: 0 auto;
+    background-color: whitesmoke;
+}
+ 
+.dev {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  margin-top: 2.4rem;
+}
+.dev header div strong{
+padding: 3rem 2rem;
+display: flex;
+align-items: center;
+margin-left: 90px;
+margin-top: -150px;
+}
+
+.dev header img{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.dev header div {
+  margin-left: 2.4rem;
+}
+.dev header div strong {
+  font: 700 1.5rem "Press Start 2P";
+  display: block;
+  color: black;
+}
+.dev header div span{
+
+  font-size: 1.6rem;  
+  display: block;
+  margin-top: 0.4rem;
+  margin-left: 150px;
+}
+
+.dev > p {
+  
+  padding: 0 8rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+
+}
+.dev footer{
+  padding: 3.2rem 2rem;
+  background-color: white;
+  border-top: 1px solid white;
+  margin-top: 3.2rem;
+  margin-left: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.dev footer p {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: white;
+}
+.dev footer p strong {
+  font-size: 1.6rem;
+  color: black;
+  display: block;
+
+}
+
+.dev footer .button{
+  width: 20rem;
+  height: 5.6rem;
+  background: white;
+  color: black;
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.4rem "Press Start 2P";
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  text-decoration: none;
+
+  transition: background 0.2s;
+  margin-left: 1.6rem;
+}
+.dev footer button:hover {
+  background: white;
+}
